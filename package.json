@@ -41,7 +41,7 @@
     "bootstrap-dark-5": "^1.1.3"
   },
   "lint-staged": {
-    "*.js": [
+    "**/*.js": [
       "prettier --write",
       "eslint --fix",
       "jest --findRelatedTests"
