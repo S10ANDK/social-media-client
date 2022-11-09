@@ -26,7 +26,7 @@ class LocalStorageMock {
 global.localStorage = new LocalStorageMock();
 
 const validLoginCredentials = {
-  email: 'tomhardy@noroff.no',
+  email: 'tomhardy2@noroff.no',
   password: '1234512345',
 };
 

@@ -1,4 +1,4 @@
-v.1.0.6
+v.1.0.7
 
 [![Automated Unit Testing](https://github.com/S10ANDK/social-media-client/actions/workflows/unit-test.yml/badge.svg)](https://github.com/S10ANDK/social-media-client/actions/workflows/unit-test.yml)
 [![Automated E2E Testing](https://github.com/S10ANDK/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/S10ANDK/social-media-client/actions/workflows/e2e-test.yml)
@@ -6,22 +6,22 @@ v.1.0.6
 
 Make sure to install Node.js v16.18.0 locally.
 
-
 Install devDependencies:
+
 - npm i
 
-
 Compiling from scss to css in real-time. Use:
+
 - npm run start
 
-
 Update what files prettier and eslint are targeting to suit your needs (scripts in package.json):
-- "format": "prettier -w **/*.js",
-- "lint": "eslint **/*.js",
-- "lint-fix": "eslint **/*.js --cache --fix",
 
+- "format": "prettier -w \*_/_.js",
+- "lint": "eslint \*_/_.js",
+- "lint-fix": "eslint \*_/_.js --cache --fix",
 
-Configured for hosting with Vite. Use: 
+Configured for hosting with Vite. Use:
+
 - npm run dev
 
 or
